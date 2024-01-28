@@ -1,5 +1,5 @@
 let teste = '';
-// verifica se variavel está vazia ou não
+// verifica se variavel está vazia ou não.
 const verificaVazio = function(){
     if (teste === '') {
         console.log('é uma string vazia');
@@ -26,9 +26,9 @@ const attVariavel = function () {
 }
 
 
-
-
+//após atribuir o valor mostrar na tela.
 console.log(attVariavel(teste));
 
 
+//verifica novamente se é uma teste continua sendo uma string vazia.
 verificaVazio(teste);
