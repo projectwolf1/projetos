@@ -25,6 +25,8 @@ const attVariavel = function (teste) {
 
 
 
+
+
 verificaVazio();
 console.log(attVariavel(teste));
 
