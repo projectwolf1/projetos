@@ -1,15 +1,22 @@
-const mesesAno = [1,2 ,3 ,4 ,5 ,6 ,7,8,9 ,10 ,11 ,12];
-const diasMes =  [1,2 ,3 ,4 ,5 ,6 ,7,8,9 ,10 ,11 ,12, 13, 14, 15, 16, 17,18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+const dia = 16;
+const metros = 20;
+
+const dia2 = 0;
+const metros2 = 20; 
+const chegada = dia * metros
 
 
-function recebeMes (c) {
-        c += mesesAno
+    const MultiplicaMetroTartaruga = function () {
 
-        for (let i = 0; i <= 10; i++) {
-            console.log(`Essa pessoa nasceu no mês de Outubro`);
-        }
-        
-        return recebeMes;
+        if ( chegada > 400){
+            console.log(`A primeira tartaruga chegou até o destino depois de percorrer foi de ${chegada} Metros. Parabéns!!`);
+         }else{
+            
+        if (chegada < 400)
+            console.log(`A primeira tartaruga chegou até o destino depois de percorrer foi de ${chegada} Metros. Se esforce mais!!`); 
+         }
+            
+
 }
 
-recebeMes(mesesAno);
+console.log(MultiplicaMetroTartaruga());
